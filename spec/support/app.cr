@@ -1,6 +1,4 @@
 require "kemal"
-
-require "kilt"
 require "kilt/slang"
 
 get "/" do
