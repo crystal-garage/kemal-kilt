@@ -36,7 +36,8 @@ require "kilt/slang"
 
 get "/:name" do |env|
   name = env.params.url["name"]
-  render "src/views/hello.slang"
+
+  render "src/views/index.slang"
 end
 ```
 

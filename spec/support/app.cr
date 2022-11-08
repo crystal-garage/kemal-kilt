@@ -1,8 +1,8 @@
 require "kemal"
 require "kilt/slang"
 
-get "/" do
-  name = "World"
+get "/:name" do |env|
+  name = env.params.url["name"]
 
   render "spec/support/views/index.slang"
 end
