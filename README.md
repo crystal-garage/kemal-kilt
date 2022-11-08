@@ -1,5 +1,7 @@
 # kemal-kilt
 
+[![Crystal CI](https://github.com/crystal-garage/kemal-kilt/actions/workflows/crystal.yml/badge.svg)](https://github.com/crystal-garage/kemal-kilt/actions/workflows/crystal.yml)
+
 Kilt templating interface helpers for Kemal
 
 > Since Kemal 1.2 Kilt removed as dependency <https://github.com/kemalcr/kemal/issues/617>
@@ -25,10 +27,25 @@ Kilt templating interface helpers for Kemal
 ## Usage
 
 ```crystal
+require "kemal"
 require "kemal-kilt"
 
 # For slang, add:
 require "kilt/slang"
+
+get "/:name" do |env|
+  name = env.params.url["name"]
+  render "src/views/hello.slang"
+end
+```
+
+```slim
+doctype html
+html
+  head
+    title This is a title
+  body
+    | Hello #{name}
 ```
 ## Development
 
