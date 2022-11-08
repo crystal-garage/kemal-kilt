@@ -12,8 +12,7 @@ development_dependencies:
     github: kemalcr/spec-kemal
   slang:
     github: jeromegn/slang
-  slang:
-    github: jeromegn/slang
+    branch: master
 
 authors:
   - Anton Maminov <anton.maminov@gmail.com>
