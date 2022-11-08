@@ -5,7 +5,7 @@
 
 Kilt templating interface helpers for Kemal
 
-> Since Kemal 1.2 Kilt removed as dependency <https://github.com/kemalcr/kemal/issues/617>
+> Since Kemal 1.2 Kilt removed as dependency in <https://github.com/kemalcr/kemal/pull/618>
 >
 > This shard restores removed functionality.
 
