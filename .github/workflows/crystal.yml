@@ -38,4 +38,6 @@ jobs:
       - name: Install dependencies
         run: shards install
       - name: Run tests
-        run: KEMAL_ENV=test crystal spec
+        run: crystal spec
+        env:
+          KEMAL_ENV: test
