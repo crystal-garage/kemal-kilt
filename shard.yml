@@ -1,0 +1,23 @@
+name: kemal-kilt
+version: 0.1.0
+
+dependencies:
+ kemal:
+    github: kemalcr/kemal
+ kilt:
+    github: jeromegn/kilt
+
+development_dependencies:
+  spec-kemal:
+    github: kemalcr/spec-kemal
+  slang:
+    github: jeromegn/slang
+  slang:
+    github: jeromegn/slang
+
+authors:
+  - Anton Maminov <anton.maminov@gmail.com>
+
+crystal: ">= 1.0.0"
+
+license: MIT
