@@ -1,6 +1,7 @@
 # kemal-kilt
 
 [![Crystal CI](https://github.com/crystal-garage/kemal-kilt/actions/workflows/crystal.yml/badge.svg)](https://github.com/crystal-garage/kemal-kilt/actions/workflows/crystal.yml)
+[![GitHub release](https://img.shields.io/github/release/crystal-garage/kemal-kilt.svg)](https://github.com/crystal-garage/kemal-kilt/releases)
 
 Kilt templating interface helpers for Kemal
 
@@ -54,7 +55,7 @@ KEMAL_ENV=test crystal spec
 ```
 ## Contributing
 
-1. Fork it (<https://github.com/your-github-user/kemal-kilt/fork>)
+1. Fork it (<https://github.com/crystal-garage/kemal-kilt/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
